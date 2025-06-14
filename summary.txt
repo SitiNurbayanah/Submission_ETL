@@ -1,0 +1,31 @@
+
+=== ETL Pipeline Summary ===
+Execution Time: 2025-06-14 21:43:09
+Total Records: 867
+
+Data Types:
+Title     string[python]
+Price            float64
+Rating           float64
+Colors             int64
+Size      string[python]
+Gender    string[python]
+
+Statistical Summary:
+              Price      Rating  Colors
+count  8.670000e+02  867.000000   867.0
+mean   4.804335e+06    3.988120     3.0
+std    2.299773e+06    0.591459     0.0
+min    8.056000e+05    3.000000     3.0
+25%    2.778560e+06    3.500000     3.0
+50%    4.776800e+06    4.000000     3.0
+75%    6.836240e+06    4.500000     3.0
+max    8.794880e+06    5.000000     3.0
+
+Value Counts:
+Gender: {'Women': 300, 'Unisex': 300, 'Men': 267}
+Size: {'M': 200, 'L': 200, 'XL': 200, 'XXL': 200, 'S': 67}
+
+Price Range: $805,600.00 - $8,794,880.00 IDR
+Average Rating: 3.99
+        
