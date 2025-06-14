@@ -1,0 +1,18 @@
+FASHION STUDIO ETL PIPELINE SUBMISSION
+=====================================
+
+Instruksi pemakaian:
+-------------------
+1. Install dependensi:
+   pip install -r requirements.txt
+
+2. Run ETL:
+   python main.py
+
+3. Run tests:
+   python -m pytest tests/ -v
+
+Output:
+----------------
+- products.csv: Dataset setelah filtering
+- summary.txt: Statistic dan dataset summary
